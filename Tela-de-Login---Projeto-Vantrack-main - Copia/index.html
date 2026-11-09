@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vantrack</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/login.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <div class="header-login">
+        <img src="src/img/van.png.png" alt="Van Escolar" class="logo-van">
+        <h1>Bem-vindo</h1>
+        <h2>ao Vantrack</h2>
+    </div>
+
+    <!-- Formulário -->
+    <div class="form-container">
+        <form id="form-login">
+
+            <div class="input-com-icone">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="E-mail">
+            </div>
+
+            <div class="input-com-icone">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="senha" name="senha" placeholder="Senha">
+            </div>
+
+            <div class="lembrar-container">
+                <input class="Check" type="checkbox" id="Check" name="Check">
+                <label for="Check">Lembrar-me</label>
+            </div>
+
+            <input type="submit" value="Entrar" class="btn-entrar">
+
+        </form>
+    </div>
+
+    <!-- Links inferiores -->
+    <div class="links-adicionais">
+        <a href="recuperar.html" class="link-recuperar">Esqueci minha senha?</a>
+        <a href="perfil.html" class="link-cadastrar">Ainda não tem conta? Cadastre-se</a>
+    </div>
+
+    <!-- JS -->
+    <script src="src/js/login.js"></script>
+
+</body>
+</html>
